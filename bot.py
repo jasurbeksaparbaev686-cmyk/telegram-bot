@@ -1,7 +1,7 @@
 from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, filters, ContextTypes
 
-TOKEN = "8402178729:AAHAJiUKS1IhB1uzJRMgfyhj5MAKOKZX-7s"
+TOKEN = "8728926232:AAEvG1mTmNbKRwgIdK9fRzrF6Bs8DUb2wMQ"
 
 async def reply(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if update.message.text.lower() == "salom":
